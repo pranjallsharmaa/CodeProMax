@@ -68,7 +68,7 @@ Now let's see how we will code what we have done one by one
 	
 ## Complexity
 
-Time - O(n): We need to iterate the tasks array once to create the frequency array
+- **Time - O(n)**: We need to iterate the tasks array once to create the frequency array
 			 Sorting the frequency array will be constant (as size is always 26)
-			 Iterating over the frequency array to decrement the idleSlots count will also be constant, (as size is always 26)
-Space - O(1): We are using another frequency array, but the size of that will always be constant (26)
+			 Iterating over the frequency array to decrement the idleSlots count will also be constant, (as size is always 26)\
+- **Space - O(1)**: We are using another frequency array, but the size of that will always be constant (26)
