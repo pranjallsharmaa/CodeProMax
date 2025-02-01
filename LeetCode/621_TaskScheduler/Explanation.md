@@ -6,7 +6,7 @@ The idea is, take the task which needs to execute the _maximum number of times_ 
 we will fill up these idle slots by other tasks
 
 Let's say the task array is something like this: [A,A,A,B,B,C,C] and n = 2
-The maximum frequency task is "A" (=3). So, intuitively, this is how I will arrange the execution process
+The maximum frequency task is "A", frequency array will look something like [3,2,2,0...]. So, intuitively, this is how I will arrange the execution process
 
 A _ _ A _ _ A
 
